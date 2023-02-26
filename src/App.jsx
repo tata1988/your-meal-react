@@ -1,6 +1,7 @@
-import { Catalog } from "./components/Catalog/Catalog"
-import { Header } from "./components/header/header"
-import { Navigation } from "./components/Navigation/Navigation"
+import { Provider } from "react-redux";
+import { Catalog } from "./components/Catalog/Catalog";
+import { Header } from "./components/header/header";
+import { Navigation } from "./components/Navigation/Navigation";
 
 export const App = () => {
 
