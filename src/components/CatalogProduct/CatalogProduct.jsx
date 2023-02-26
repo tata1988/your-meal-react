@@ -12,7 +12,7 @@ export const CatalogProduct = ({ item }) => {
             <p className={style.price}>{item.price}<span className="currency">₽</span></p>
 
             <h3 className={style.title}>
-                <button className={style.detail}>{props.title}</button>
+                <button className={style.detail}>{item.title}</button>
             </h3>
 
             <p className={style.weight}>{item.weight}г</p>
